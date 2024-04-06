@@ -2,8 +2,11 @@
 local M = {}
 
 M.ui = {
-  theme = 'onedark',
+  theme = 'monochrome',
   transparency = true,
+  tabufline = {
+    enabled = false,
+  },
 }
 M.plugins = "custom.plugins"
 return M

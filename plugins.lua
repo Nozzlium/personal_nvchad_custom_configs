@@ -5,7 +5,7 @@ local plugins = {
       ensure_installed = {
         "gopls",
         "typescript-language-server",
-        "tailwindcss-language-server",
+    "tailwindcss-language-server",
         "eslint-lsp",
         "prettierd"
       }
@@ -51,6 +51,10 @@ local plugins = {
       }
       return opts
     end
+  },
+  {
+    "nvim-telescope/telescope-fzf-native.nvim",
+    build = "make"
   }
 }
 return plugins
