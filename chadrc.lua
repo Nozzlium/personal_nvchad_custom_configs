@@ -2,7 +2,7 @@
 local M = {}
 
 M.ui = {
-  theme = 'monochrome',
+  theme = 'chadracula',
   transparency = true,
   tabufline = {
     enabled = false,
